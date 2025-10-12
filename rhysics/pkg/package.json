@@ -1,0 +1,15 @@
+{
+  "name": "rhysics",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "rhysics_bg.wasm",
+    "rhysics.js",
+    "rhysics.d.ts"
+  ],
+  "main": "rhysics.js",
+  "types": "rhysics.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

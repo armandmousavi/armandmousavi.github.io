@@ -49,3 +49,6 @@ $$
 
 ---
 
+### Check out my wasm demo from Rust
+[rhysics](https://armandmousavi.github.io/rhysics/test.html)
+
