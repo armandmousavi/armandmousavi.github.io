@@ -1,14 +1,14 @@
 {
-  "name": "rhysics",
+  "name": "rhysics-bevy",
   "type": "module",
   "version": "0.1.0",
   "files": [
-    "rhysics_bg.wasm",
-    "rhysics.js",
-    "rhysics.d.ts"
+    "rhysics_bevy_bg.wasm",
+    "rhysics_bevy.js",
+    "rhysics_bevy.d.ts"
   ],
-  "main": "rhysics.js",
-  "types": "rhysics.d.ts",
+  "main": "rhysics_bevy.js",
+  "types": "rhysics_bevy.d.ts",
   "sideEffects": [
     "./snippets/*"
   ]
