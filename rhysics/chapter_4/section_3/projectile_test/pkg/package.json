@@ -1,0 +1,15 @@
+{
+  "name": "projectile_test",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "projectile_test_bg.wasm",
+    "projectile_test.js",
+    "projectile_test.d.ts"
+  ],
+  "main": "projectile_test.js",
+  "types": "projectile_test.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
