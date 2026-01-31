@@ -7,6 +7,9 @@ on:
       - 'posts/**/*.md'
       - '!posts/toc.md'
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
