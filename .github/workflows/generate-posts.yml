@@ -1,0 +1,25 @@
+name: Generate toc.md
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'posts/**/*.md'
+      - '!posts/toc.md'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Generate toc.md
+        run: bash scripts/generate-posts.sh
+      
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add posts/toc.md
+          git diff --staged --quiet || git commit -m "Auto-generate toc.md"
+          git push

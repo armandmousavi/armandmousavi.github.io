@@ -4,51 +4,11 @@ Welcome to my site.
 
 ## About
 
-This is where I store my notes.
+This is where I store my notes and experimental code.
 
-## Features
+## Posts
+[View all posts](#toc)
 
-### Code Highlighting
-
-Here's an example with Python:
-
-```python
-def fibonacci(n):
-    if n <= 1:
-        return n
-    return fibonacci(n-1) + fibonacci(n-2)
-
-print(fibonacci(10))
-```
-
-And JavaScript:
-
-```javascript
-function factorial(n) {
-    return n <= 1 ? 1 : n * factorial(n - 1);
-}
-
-console.log(factorial(5));
-```
-
-### LaTeX Math
-
-Inline math: $E = mc^2$
-
-Display math:
-
-$$
-\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
-$$
-
-### Lists
-
-- Item one
-- Item two
-- Item three
-
----
-
-### Check out my wasm demo from Rust
-[rhysics](https://armandmousavi.github.io/rhysics/test.html)
+## Simulations
+[rhysics](rhysics/)
 
