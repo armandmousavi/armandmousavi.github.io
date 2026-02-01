@@ -2,7 +2,7 @@
 
 - [Example Post](#example-post)
 - [Armand Mousavi](#main)
-- [Test!](#test)
+- [Test](#test)
 - [Table of Contents](#toc)
 
 ## Subfolder
