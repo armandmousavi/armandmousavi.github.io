@@ -3,7 +3,11 @@ cd "$(dirname "$0")/.."
 
 get_title() {
     local file="$1"
-    local title=$(grep -m1 '^# ' "$file" 2>/dev/null | sed 's/^# //')
+    # Skip YAML frontmatter (between --- markers) and find first # heading
+    local title=$(awk '
+        /^---$/ { in_frontmatter = !in_frontmatter; next }
+        !in_frontmatter && /^# / { sub(/^# /, ""); print; exit }
+    ' "$file" 2>/dev/null)
     if [ -z "$title" ]; then
         title=$(basename "$file" .md | tr '-' ' ')
     fi
