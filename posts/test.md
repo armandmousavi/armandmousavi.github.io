@@ -3,7 +3,7 @@ synced_from_notes: true
 public: true
 ---
 
-# Test!
+# Test
 note
 ## test notes!
 note changed
