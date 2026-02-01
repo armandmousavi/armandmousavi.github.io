@@ -1,5 +1,6 @@
 ---
 synced_from_notes: true
+public: true
 ---
 
 # Test!
