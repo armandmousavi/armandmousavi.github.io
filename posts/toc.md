@@ -1,5 +1,6 @@
 # Table of Contents
 
+- [Internet reading essentials](#Internet reading essentials)
 - [Example Post](#example-post)
 - [Armand Mousavi](#main)
 - [Test](#test)
