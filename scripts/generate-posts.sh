@@ -14,6 +14,10 @@ get_title() {
     echo "$title"
 }
 
+urlencode() {
+    echo "$1" | sed 's/ /%20/g'
+}
+
 # Generate toc.md
 TOC="posts/toc.md"
 echo "# Table of Contents" > "$TOC"
@@ -24,7 +28,8 @@ for file in posts/*.md; do
     [ -f "$file" ] || continue
     name=$(basename "$file" .md)
     title=$(get_title "$file")
-    echo "- [$title](#$name)" >> "$TOC"
+    encoded=$(urlencode "$name")
+    echo "- [$title](#$encoded)" >> "$TOC"
 done
 
 # Subfolders
@@ -41,7 +46,8 @@ for folder in $folders; do
         [ -f "$file" ] || continue
         path="$folder_name/$(basename "$file" .md)"
         title=$(get_title "$file")
-        echo "- [$title](#$path)" >> "$TOC"
+        encoded=$(urlencode "$path")
+        echo "- [$title](#$encoded)" >> "$TOC"
     done
 done
 

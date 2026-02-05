@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [Internet reading essentials](#Internet reading essentials)
+- [Internet reading essentials](#Internet%20reading%20essentials)
 - [Example Post](#example-post)
 - [Armand Mousavi](#main)
 - [Test](#test)
