@@ -1,0 +1,15 @@
+{
+  "name": "acceleration_vector",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "acceleration_vector_bg.wasm",
+    "acceleration_vector.js",
+    "acceleration_vector.d.ts"
+  ],
+  "main": "acceleration_vector.js",
+  "types": "acceleration_vector.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "centripetal_acceleration",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "centripetal_acceleration_bg.wasm",
+    "centripetal_acceleration.js",
+    "centripetal_acceleration.d.ts"
+  ],
+  "main": "centripetal_acceleration.js",
+  "types": "centripetal_acceleration.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
