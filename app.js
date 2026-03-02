@@ -1,4 +1,4 @@
-const md = window.markdownit()
+const md = window.markdownit({ html: true })
     .use(window.texmath, {
         engine: katex,
         delimiters: ['dollars', 'brace'],
