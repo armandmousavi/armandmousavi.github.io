@@ -1,9 +1,10 @@
 # Table of Contents
 
-- [My booklist](#Internet%20reading%20essentials)
+- [Internet reading essentials](#Internet%20reading%20essentials)
 - [Example Post](#example-post)
 - [lowercase tap](#lowercase%20tap)
 - [Armand Mousavi](#main)
+- [notes with strudel](#strudel%20notes)
 - [Test](#test)
 - [Table of Contents](#toc)
 
