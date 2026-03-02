@@ -18,7 +18,16 @@ Use `s("<sound-id>")` for playing any sound like `s("casio")`
 
 Add a number to play a specific sample in that sound like `s("casio:2")`
 <iframe
-  src="https://strudel.cc/#CnMoImNhc2lvOjIiKQ%3D%3D"
+  src="https://strudel.cc/#CnMoImNhc2lvIik%3D"
   width="600"
   height="300"
 ></iframe>
+
+### Drum sounds
+![[Pasted image 20260301235129.png]]
+<iframe
+src="https://strudel.cc/#CnMoImJkIHNkIHJpbSBoaCBvaCBvaCBsdCBtdCBodCByZCBjciIpCg%3D%3D"
+  width="600"
+  height="300"
+></iframe>
+>
