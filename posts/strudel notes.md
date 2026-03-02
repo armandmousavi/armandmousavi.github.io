@@ -24,7 +24,7 @@ Add a number to play a specific sample in that sound like `s("casio:2")`
 ></iframe>
 
 ### Drum sounds
-![[Pasted image 20260301235129.png]]
+![[drums.png]]
 <iframe
 src="https://strudel.cc/#CnMoImJkIHNkIHJpbSBoaCBvaCBvaCBsdCBtdCBodCByZCBjciIpCg%3D%3D"
   width="600"
