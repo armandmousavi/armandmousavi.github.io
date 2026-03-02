@@ -41,4 +41,3 @@ src="https://strudel.cc/#CnMoImJkIHNkIHJpbSBoaCBvaCBvaCBsdCBtdCBodCByZCBjciIpCg%
   width="600"
   height="300"
 ></iframe>
->
