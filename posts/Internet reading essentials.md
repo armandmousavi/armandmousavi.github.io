@@ -2,7 +2,7 @@
 synced_from_notes: true
 public: true
 ---
-# AKA My booklist
+# My booklist
 - House of leaves
 - Gravity's rainbow
 - Dante's Inferno
